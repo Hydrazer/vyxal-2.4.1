@@ -31,14 +31,14 @@ sys.path.insert(1, THIS_FOLDER)
 
 try:
     import numpy
-    import regex
+    import re as regex
     import sympy
     import pwn
 except:
     import os
     os.system("pip3 install -r requirements.txt --quiet --disable-pip-version-check")
     import numpy
-    import regex
+    import re as regex
     import sympy
     import pwn
 
